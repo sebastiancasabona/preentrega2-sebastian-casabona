@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-image: url(../imagenes/fondo\ de\ pantalla\ 4.jpg);
+  background-size: cover;
+  background-position-y: center;
+
+}
+
+header {
+    border-bottom: 4px;
+}
+
+h1 {
+    color:#81E6C6 30px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+
+
+
+.textos {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+
+footer {
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    width: calc(10% - 20px);
+    margin: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+
+
+@media (max-width: 720px) {
+    .col {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .col {
+      width: 100%;
+    }
+  }
+  
+
+  .btn-primary {
+    background-color: #81E6C6; 
+    color: white; 
+    transition: all 0.5s ease
+    }
+    
+    .btn-primary:hover { 
+    background-color: white
+    color: #81E6C6; 
+    border: 2px solid #81E6C6; 
+    cursor: pointer; 
+    }
